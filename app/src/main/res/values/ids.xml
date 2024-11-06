@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnGoToProducts" type="id" />
+    <item name="productListView" type="id" />
+    <item name="btnGenerateBill" type="id" />
+    <item name="productsContainer" type="id" />
+</resources>

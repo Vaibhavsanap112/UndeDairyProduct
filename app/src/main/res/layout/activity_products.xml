@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ProductsActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/shopName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unde Patil Dairy"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:padding="16dp"
+        android:background="@drawable/shop_name_background"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/searchInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search for a product"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="8dp"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:drawablePadding="8dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnAdminPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp" />
+
+    <GridView
+        android:id="@+id/productGridView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnGenerateBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Bill"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>

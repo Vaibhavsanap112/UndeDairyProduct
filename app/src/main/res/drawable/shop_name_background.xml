@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    <gradient
+        android:startColor="#FF9800"  />    <!-- Orange color -->
+    android:endColor="#FF5722"        <!-- Deep Orange color -->
+    android:angle="45" />              <!-- Angle of the gradient -->
+    <corners android:radius="8dp"/>      <!-- Rounded corners -->
+</shape>

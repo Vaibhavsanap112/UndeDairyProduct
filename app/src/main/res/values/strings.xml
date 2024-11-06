@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UndePatil1</string>
+    <string name="date">Date:</string>
+    <string name="products_activity_label">Products</string>
+    <string name="admin_panel_activity_label">Admin Panel</string>
+    <string name="bill_activity_label">Bill</string>
+
+</resources>
